@@ -5,7 +5,7 @@ from __future__ import print_function
 import lap
 import numpy as np
 import scipy
-from cython_bbox import bbox_overlaps as bbox_ious
+#from cython_bbox import bbox_overlaps as bbox_ious
 from scipy.spatial.distance import cdist
 
 chi2inv95 = {
